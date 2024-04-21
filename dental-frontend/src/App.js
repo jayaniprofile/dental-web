@@ -1,11 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ResponsiveAppBar from "./Components/NavBar";
+import Home from "./Pages/Home";
+import "./Style/Home.css";
 
 function App() {
   return (
     <div className="App">
-      <ResponsiveAppBar />
+      <Home />
     </div>
   );
 }
