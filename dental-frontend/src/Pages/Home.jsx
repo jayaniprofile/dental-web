@@ -19,7 +19,7 @@ import design from "../assets/images/design.webp";
 import dentures from "../assets/images/denture2.webp";
 import other from "../assets/images/other.webp";
 import ResponsiveAppBar from "../Components/NavBar";
-import openimg from "../assets/images/openimg.webp";
+import openimg from "../assets/images/openimg.gif";
 
 export default function Home() {
   return (
@@ -158,6 +158,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+        </Container>
+
+        <Container size="last">
+          <p>Copyright © 2024 Smile Dental Clinic</p>
         </Container>
 
         {/* <Container size="s">
