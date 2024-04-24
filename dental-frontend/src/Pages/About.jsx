@@ -4,6 +4,7 @@ import Container from "../Components/Container";
 import "../Style/About.css";
 import pic1 from "../assets/images/women1.jpg";
 import dr from "../assets/images/dr.jpg";
+import { Button } from "@mui/material";
 
 export default function About() {
   return (
@@ -42,6 +43,14 @@ export default function About() {
           making dental care accessible, affordable, and hassle-free for all.
         </p>
         <img className="dr" src={dr} alt="logo" />
+      </Container>
+      <Container size="ab3">
+        <Button href="#text-buttons" sx={{ fontSize: "80px" }}>
+          Book Now
+        </Button>
+      </Container>
+      <Container size="last">
+        <p>Copyright © 2024 Smile Dental Clinic</p>
       </Container>
     </div>
   );
