@@ -1,0 +1,109 @@
+.ab1{
+    width: 1500px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.ab{
+  width: 1500px;
+  height: 380px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background: linear-gradient(rgba(47, 97, 205, 0.7),
+          rgba(118, 38, 216, 0.3)),
+      url("https://gifdb.com/images/high/dentist-check-up-collage-animation-kgllvuhb5c4mlqi5.gif");
+  background-size: cover;
+  background-position: center;
+}
+
+.ab1container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will evenly distribute the items */
+    width: 100%;
+    
+  }
+  
+  .who {
+    flex: 1; /* This will make it take up the available space */
+    max-width: 50%; /* Limiting to 50% of the container's width */
+    padding-left: 300px;
+    font-size: 30px;
+  }
+  
+  .photo1 {
+    flex: 1; /* This will make it take up the available space */
+    width: 800px; /* Limiting to 50% of the container's width */
+    
+    padding-right: 300px;
+  }
+  
+  .pic1 {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+  }
+
+  /* Define the animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the .animated-text class */
+.animated-text {
+  animation: slideInFromLeft 0.5s ease-out forwards;
+}
+
+.ab2{
+  width: 1500px;
+  height: 600px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Define the animation */
+@keyframes slideIn {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the .animated-text class */
+.animated-text1 {
+  animation: slideIn 0.5s ease-out forwards;
+  padding-left: 30px;
+}
+
+.para1{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.para2{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dr{
+  width: 500px;
+  height: auto;
+  padding-left: 500px;
+}
