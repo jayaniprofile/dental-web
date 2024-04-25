@@ -2,13 +2,13 @@ import React from "react";
 import ResponsiveAppBar from "../Components/NavBar";
 import Container from "../Components/Container";
 import "../Style/About.css";
-import pic1 from "../assets/images/women1.jpg";
+import pic1 from "../assets/images/women.png";
 import dr from "../assets/images/dr.jpg";
 import { Button } from "@mui/material";
 
 export default function About() {
   return (
-    <div>
+    <div className="App">
       <ResponsiveAppBar />
 
       <Container size="ab"></Container>
