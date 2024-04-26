@@ -1,0 +1,244 @@
+.ser1{
+    width: 1500px;
+    height: 680px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background: linear-gradient(rgba(148, 173, 228, 0.7),
+          rgba(250, 249, 252, 0.3)),
+      url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBDgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAb/xAAeEAEBAAMAAgMBAAAAAAAAAAAAAQIREhMxA0FhIf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBAAMGBf/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/APuoUGFH2HnIcKDDg04sODDg04UPEYcCukKHBh4hXSFi6QYcCukLEkiwa6QmZkVWZmVqioyNQpirBQrpQqxzrnk55Otc8jjnXKhXShXSOdc6510oU45Vzo06FIKNCnQpBVhwYUStDhRIUGukKHBhwa6Q5Dgw8YFdIUOJIcgV0iw4MOBThRUKCcZWbTKzLpNIrIrKiX0JX0LMNCnRyKBXOhk6VzyOOdc8grpk55HHOudCumQU451zoU6FKOVChXSudMKUOBDiVYcOBHSDXSFDgw4FdIch4hHSBXSHDgQ4FdIUODCgU4RRJFiHFkXTKixNNpWRRQtJYqVAp0KsSjRpUaUChQyOhTgVzyDJ0yc8jjnXOhToU45Vzo06FKOdChToUo50pDkGQoxQ4cCHApw4cCHKNdIcdI5ynKFdJXSHHOU5QrpHSFAlKUKcdIX25yltKcOEG22KwlHbbZdWja20tVKlG1bRtVKloVbRtKBUoWla52nHOjlQyK0LTjnaFCnaFOOdDIKdCwo50LBsOhSgUocCHGpQ4UGHAKFCgwoNdIcpShCEoeNdJXKFKljpK6ylK5SlMgsKV1lLblMl6Gw5XXpduXS9Ji669N05dN02Lp9J0HSdLidHaNo9f1Lk2Dato2psbTkDWtCtam1wbUtC0shOOdCjToUoNGwKdClHOjQsOiQVocCHEpFDgQ4NKHCgQ4NdIUIYUEoUVIqGyypI1jMUq9AyYuukybpybaY3Tt03Ucum6bG6dOm25bXbY2ltLUZcTW2zMzChaRUo0adGlAoUKVGrBo0KVGnAo0Vo0oFIoJRlWHAhQaUhwoEKDhx0lOVyhyhTldYuglOVKUXS6WFBIOU5duV5TSxw5Tl6OPxuPxum5efluXp4Txt03Dz8ry7+NuG6blx5bl25S4trY5cpo7Bq6NGjVtC0oNTILStClAo0atGkFGjSo0hooVEhUhJNXFhQYUEihQYUQosOBDg0ilPGuZQSjrKcrlKUo047410xeeZOmOQ2OkrvIUxcZmU+QLKcsdeY3MDyRL8n6mUthXFLBuYXNZKlsXIMkuQZZHI52ta55VbQtKRzqWjatGmFGjSo/RQaNGlRqiNGlUpCNEqijilEixCWFEiyIqwokKIUiwvpIUGnIsJJCEsZWkbSKu1mQpVV07XyOWx3UyNrv5G8jhututzG2u/kTtx3S22Np3JNozM1qLprGQaJVKQ4FGnRqjQo06NIcCwaY1RFKtSrqLFnpWZlhRGQjixmQoUOIwlDiqwkrMyKzMysiMzMjMzMqszMysyMzMzMNGsyxBvoazEFG+hrMQjUrMojUrMqP//Z");
+  background-size: cover;
+  background-position: center;
+}
+
+.sercontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This will evenly distribute the items */
+    width: 100%;
+    
+  }
+  
+  .who {
+    flex: 1; /* This will make it take up the available space */
+    max-width: 50%; /* Limiting to 50% of the container's width */
+    padding-left: 300px;
+    font-size: 30px;
+  }
+  
+  .pic1 {
+    flex: 1; /* This will make it take up the available space */
+    width: 700px; /* Set width to auto */
+    height: 600px; /* Set height to 600px */
+    padding-right: 300px;
+  }
+
+  .grp2 {
+    width: 1500px;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://i.gifer.com/embedded/download/SG2C.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.fill {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.clean {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.white {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.implant {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.bridge {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.rct {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.design {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.dentures {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.other {
+    margin-top: 10px;
+    width: 300px;
+    height: 380px;
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+.tone {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.ttwo {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tthree {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tfour {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tfive {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tsix {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tseven {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.teight {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+.tnine {
+    width: 600px;
+    height: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
+    background-size: cover;
+    background-position: center;
+}
+
+
+  
+  
+  
+  
