@@ -126,8 +126,8 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
         url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
@@ -139,9 +139,9 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
-        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
 }
@@ -152,8 +152,8 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
         url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
@@ -165,9 +165,9 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
-        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
 }
@@ -178,8 +178,8 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
         url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
@@ -191,9 +191,9 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
-        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
 }
@@ -204,8 +204,8 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
         url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
@@ -217,9 +217,9 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
-        url("https://media.tenor.com/HLq6IZubKOEAAAAM/implant-dentistry-henderson-dentist-in-henderson.gif");
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
+            rgba(195, 161, 235, 0.3)),
+        url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
 }
@@ -230,13 +230,62 @@
     margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
+    background: linear-gradient(rgba(240, 241, 243, 0.7),
             rgba(118, 38, 216, 0.3)),
         url("https://www.crystaldental.ca/assets/img/preloader.gif");
     background-size: cover;
     background-position: center;
 }
 
+.para1{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .button-container {
+    margin-top: 20px;
+    /* Adjust as needed */
+    margin-left: 450px;
+}
+
+
+.last{
+    width: 1500px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .App {
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://i.pinimg.com/originals/d2/5f/60/d25f60f14ece7d93589eb9a76c28d058.gif");
+    background-size: cover;
+    background-position: center;
+  }
+
+  @keyframes slideIn {
+    0% {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Apply the animation to the .animated-text class */
+  .animated-text {
+    animation: slideIn 0.5s ease-out forwards;
+    padding-left: 30px;
+  }
+  
 
   
   
