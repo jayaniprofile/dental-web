@@ -1,17 +1,17 @@
 import React from "react";
 import ResponsiveAppBar from "../Components/NavBar";
 import Container from "../Components/Container";
-import pic1 from "../assets/images/services2.png";
+import spic1 from "../assets/images/services2.png";
 import "../Style/Services.css";
-import white from "../assets/images/whitening.webp";
-import clean from "../assets/images/cleaning.webp";
-import fill from "../assets/images/fillings.webp";
-import implant from "../assets/images/implants.webp";
-import bridge from "../assets/images/bridge.webp";
-import rct from "../assets/images/RCT.webp";
-import design from "../assets/images/design.webp";
-import dentures from "../assets/images/denture2.webp";
-import other from "../assets/images/other.webp";
+import swhite from "../assets/images/whitening.webp";
+import sclean from "../assets/images/cleaning.webp";
+import sfill from "../assets/images/fillings.webp";
+import simplant from "../assets/images/implants.webp";
+import sbridge from "../assets/images/bridge.webp";
+import srct from "../assets/images/RCT.webp";
+import sdesign from "../assets/images/design.webp";
+import sdentures from "../assets/images/denture2.webp";
+import sother from "../assets/images/other.webp";
 import { Button } from "@mui/material";
 
 export default function Services() {
@@ -20,19 +20,19 @@ export default function Services() {
       <ResponsiveAppBar />
       <Container size="ser1">
         <div className="sercontainer">
-          <div className="who">
+          <div className="swho">
             <h1 className="animated-text">Services</h1>
           </div>
-          <div className="photo1">
-            <img className="pic1" src={pic1} alt="pic1" />
+          <div className="sphoto1">
+            <img className="spic1" src={spic1} alt="pic1" />
           </div>
         </div>
       </Container>
 
-      <Container size="grp2">
-        <Container size="tone">
+      <Container size="sgrp2">
+        <Container size="stone">
           <h3>Teeth Whitening</h3>
-          <img className="white" src={white} alt="logo" />
+          <img className="white" src={swhite} alt="logo" />
           <p className="para1">
             Tooth whitening can be a very effective way of lightening the
             natural colour of your teeth without removing any of the tooth
@@ -43,9 +43,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="ttwo">
+        <Container size="sttwo">
           <h3>Cleaning & Polishing (Scaling)</h3>
-          <img className="clean" src={clean} alt="logo" />
+          <img className="clean" src={sclean} alt="logo" />
           <p className="para1">
             Most of the people visiting the dentist have a lot of anticipation
             regarding the cleaning procedure. They apprehend it to be a painful
@@ -56,9 +56,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tthree">
+        <Container size="stthree">
           <h3>Tooth Coloured Fillings</h3>
-          <img className="fill" src={fill} alt="logo" />
+          <img className="fill" src={sfill} alt="logo" />
           <p className="para1">
             A dental filling repairs the damage caused by tooth decay or a
             fracture. It restores the natural appearance of a decayed or
@@ -69,9 +69,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tfour">
+        <Container size="stfour">
           <h3>Dental Implants</h3>
-          <img className="implant" src={implant} alt="implant" />
+          <img className="implant" src={simplant} alt="implant" />
           <p className="para1">
             Dental implants are a type of tooth replacement that are made up of
             three parts: the implant (a small titanium fixture), the abutment (a
@@ -82,9 +82,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tfive">
+        <Container size="stfive">
           <h3>Crowns & Bridges</h3>
-          <img className="bridge" src={bridge} alt="logo" />
+          <img className="bridge" src={sbridge} alt="logo" />
           <p className="para1">
             If you have missing teeth, including front teeth, a dental bridge
             can help restore the look and function of your teeth. It bridges the
@@ -95,9 +95,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tsix">
+        <Container size="stsix">
           <h3>Nerve Fillings</h3>
-          <img className="rct" src={rct} alt="logo" />
+          <img className="rct" src={srct} alt="logo" />
           <p className="para1">
             Dentists perform root canal treatment (RCT), also called nerve
             filling, to remove infected or damaged pulp from inside a tooth.The
@@ -108,9 +108,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tseven">
+        <Container size="stseven">
           <h3>Smile Design</h3>
-          <img className="design" src={design} alt="design" />
+          <img className="design" src={sdesign} alt="design" />
           <p className="para1">
             Smile design and cosmetic dentistry refers to the process of
             improving the appearance of a person’s smile through various
@@ -121,9 +121,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="teight">
+        <Container size="steight">
           <h3>Dentures</h3>
-          <img className="dentures" src={dentures} alt="logo" />
+          <img className="dentures" src={sdentures} alt="logo" />
           <p className="para1">
             Dentures are removable dental prosthetics used to replace missing
             teeth and surrounding tissues. They can be made of acrylic resin,
@@ -134,9 +134,9 @@ export default function Services() {
             <Button variant="contained">More</Button>
           </div>
         </Container>
-        <Container size="tnine">
+        <Container size="stnine">
           <h3>Other Treatments</h3>
-          <img className="other" src={other} alt="logo" />
+          <img className="other" src={sother} alt="logo" />
         </Container>
       </Container>
       <Container size="last">

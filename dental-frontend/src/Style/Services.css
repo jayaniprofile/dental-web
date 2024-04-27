@@ -18,21 +18,21 @@
     
   }
   
-  .who {
+  .swho {
     flex: 1; /* This will make it take up the available space */
     max-width: 50%; /* Limiting to 50% of the container's width */
     padding-left: 300px;
     font-size: 30px;
   }
   
-  .pic1 {
+  .spic1 {
     flex: 1; /* This will make it take up the available space */
     width: 700px; /* Set width to auto */
     height: 600px; /* Set height to 600px */
     padding-right: 300px;
   }
 
-  .grp2 {
+  .sgrp2 {
     width: 1500px;
     height: auto;
     margin-left: 10px;
@@ -48,7 +48,7 @@
     background-position: center;
 }
 
-.fill {
+.sfill {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -56,7 +56,7 @@
     margin-right: 130px;
 }
 
-.clean {
+.sclean {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -64,7 +64,7 @@
     margin-right: 130px;
 }
 
-.white {
+.swhite {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -72,7 +72,7 @@
     margin-right: 130px;
 }
 
-.implant {
+.simplant {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -80,7 +80,7 @@
     margin-right: 130px;
 }
 
-.bridge {
+.sbridge {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -88,7 +88,7 @@
     margin-right: 130px;
 }
 
-.rct {
+.srct {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -96,7 +96,7 @@
     margin-right: 130px;
 }
 
-.design {
+.sdesign {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -104,7 +104,7 @@
     margin-right: 130px;
 }
 
-.dentures {
+.sdentures {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -112,7 +112,7 @@
     margin-right: 130px;
 }
 
-.other {
+.sother {
     margin-top: 10px;
     width: 300px;
     height: 380px;
@@ -120,7 +120,7 @@
     margin-right: 130px;
 }
 
-.tone {
+.stone {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -133,7 +133,7 @@
     background-position: center;
 }
 
-.ttwo {
+.sttwo {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -146,7 +146,7 @@
     background-position: center;
 }
 
-.tthree {
+.stthree {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -159,7 +159,7 @@
     background-position: center;
 }
 
-.tfour {
+.stfour {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -172,7 +172,7 @@
     background-position: center;
 }
 
-.tfive {
+.stfive {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -185,7 +185,7 @@
     background-position: center;
 }
 
-.tsix {
+.stsix {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -198,7 +198,7 @@
     background-position: center;
 }
 
-.tseven {
+.stseven {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -211,7 +211,7 @@
     background-position: center;
 }
 
-.teight {
+.steight {
     width: 600px;
     height: 700px;
     margin-top: 20px;
@@ -224,7 +224,7 @@
     background-position: center;
 }
 
-.tnine {
+.stnine {
     width: 600px;
     height: 700px;
     margin-top: 20px;
