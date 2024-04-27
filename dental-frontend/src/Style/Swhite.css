@@ -3,6 +3,10 @@
     height: 2000px;
     margin-left: 25px;
     margin-right: 25px;
+    background: linear-gradient(rgba(148, 173, 228, 0.7),
+          rgba(250, 249, 252, 0.3)),
+      url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQBDgMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAb/xAAeEAEBAAMAAgMBAAAAAAAAAAAAAQIREhMxA0FhIf/EABkBAQEBAQEBAAAAAAAAAAAAAAIBAAMGBf/EABcRAQEBAQAAAAAAAAAAAAAAAAABERL/2gAMAwEAAhEDEQA/APuoUGFH2HnIcKDDg04sODDg04UPEYcCukKHBh4hXSFi6QYcCukLEkiwa6QmZkVWZmVqioyNQpirBQrpQqxzrnk55Otc8jjnXKhXShXSOdc6510oU45Vzo06FIKNCnQpBVhwYUStDhRIUGukKHBhwa6Q5Dgw8YFdIUOJIcgV0iw4MOBThRUKCcZWbTKzLpNIrIrKiX0JX0LMNCnRyKBXOhk6VzyOOdc8grpk55HHOudCumQU451zoU6FKOVChXSudMKUOBDiVYcOBHSDXSFDgw4FdIch4hHSBXSHDgQ4FdIUODCgU4RRJFiHFkXTKixNNpWRRQtJYqVAp0KsSjRpUaUChQyOhTgVzyDJ0yc8jjnXOhToU45Vzo06FKOdChToUo50pDkGQoxQ4cCHApw4cCHKNdIcdI5ynKFdJXSHHOU5QrpHSFAlKUKcdIX25yltKcOEG22KwlHbbZdWja20tVKlG1bRtVKloVbRtKBUoWla52nHOjlQyK0LTjnaFCnaFOOdDIKdCwo50LBsOhSgUocCHGpQ4UGHAKFCgwoNdIcpShCEoeNdJXKFKljpK6ylK5SlMgsKV1lLblMl6Gw5XXpduXS9Ji669N05dN02Lp9J0HSdLidHaNo9f1Lk2Dato2psbTkDWtCtam1wbUtC0shOOdCjToUoNGwKdClHOjQsOiQVocCHEpFDgQ4NKHCgQ4NdIUIYUEoUVIqGyypI1jMUq9AyYuukybpybaY3Tt03Ucum6bG6dOm25bXbY2ltLUZcTW2zMzChaRUo0adGlAoUKVGrBo0KVGnAo0Vo0oFIoJRlWHAhQaUhwoEKDhx0lOVyhyhTldYuglOVKUXS6WFBIOU5duV5TSxw5Tl6OPxuPxum5efluXp4Txt03Dz8ry7+NuG6blx5bl25S4trY5cpo7Bq6NGjVtC0oNTILStClAo0atGkFGjSo0hooVEhUhJNXFhQYUEihQYUQosOBDg0ilPGuZQSjrKcrlKUo047410xeeZOmOQ2OkrvIUxcZmU+QLKcsdeY3MDyRL8n6mUthXFLBuYXNZKlsXIMkuQZZHI52ta55VbQtKRzqWjatGmFGjSo/RQaNGlRqiNGlUpCNEqijilEixCWFEiyIqwokKIUiwvpIUGnIsJJCEsZWkbSKu1mQpVV07XyOWx3UyNrv5G8jhututzG2u/kTtx3S22Np3JNozM1qLprGQaJVKQ4FGnRqjQo06NIcCwaY1RFKtSrqLFnpWZlhRGQjixmQoUOIwlDiqwkrMyKzMysiMzMjMzMqszMysyMzMzMNGsyxBvoazEFG+hrMQjUrMojUrMqP//Z");
+  background-size: cover;
 }
 
 .last{
@@ -29,3 +33,17 @@
     padding-right: 50px;
     color: rgb(109, 109, 107);
   }
+
+  .ul-left {
+    text-align: left; /* Align list items to the left */
+    margin-left: 50px; /* Adjust margin to create space from the left edge */
+    padding-left: 60px; /* Remove default padding */
+    color: rgb(109, 109, 107);
+  }
+  
+  /* Adjust margin and padding for list items */
+  .ul-left li {
+    margin-left: 20px; /* Add some space between bullet points and text */
+    padding-left: 0; /* Remove default padding */
+  }
+  

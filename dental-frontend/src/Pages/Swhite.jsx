@@ -18,7 +18,7 @@ export default function Swhite() {
           shade.
         </p>
         <h2>Why You May Need Teeth Whitening</h2>
-        <p>
+        <p className="sss">
           A great smile is a great social asset and can boost self-confidence,
           so it’s no surprise, whitening treatments are now more popular than
           ever. Teeth whitening can improve your appearance for an upcoming job
@@ -28,11 +28,11 @@ export default function Swhite() {
         </p>
         <img className="white" src={swhite} alt="logo" />
         <h2>Causes of Tooth Discolouration</h2>
-        <p>
+        <p className="sss">
           There are many reasons teeth can become discoloured. Risk factors
           include but are not limited to:
         </p>
-        <ul>
+        <ul className="ul-left">
           <li>Coffee</li>
           <li>Tea</li>
           <li>Cola</li>
@@ -47,13 +47,13 @@ export default function Swhite() {
           <li>Some medications</li>
           <li>Diseases</li>
         </ul>
-        <p>
+        <p className="sss">
           It is advisable to visit a dentist to better understand the cause of
           your tooth discolouration and get professional help on how to manage
           the problem.
         </p>
         <h2>Suitability for Teeth Whitening</h2>
-        <p>
+        <p className="sss">
           Before deciding to use a tooth whitening procedure, it is advisable to
           consult with a dentist and discuss the type and severity of
           discolouration you are experiencing and your motivations for
@@ -68,7 +68,7 @@ export default function Swhite() {
           the colour.
         </p>
         <h2>Whitening may not be appropriate for you, if:</h2>
-        <ul>
+        <ul className="ul-left">
           <li>
             You have crowns or plastic fillings (whitening can affect the bond
             between fillings and teeth)
@@ -79,12 +79,12 @@ export default function Swhite() {
           <li>You are pregnant or breastfeeding</li>
           <li>You are under 18</li>
         </ul>
-        <p>
+        <p className="sss">
           Consult with your dentist to determine what treatments are available
           for your individual circumstances.
         </p>
         <h2>Risks and Possible Complications for Teeth Whitening</h2>
-        <p>
+        <p className="sss">
           Teeth whitening is safe when done correctly by a professional,
           although minor complications are possible. Some people notice their
           teeth are more sensitive during the 24 hours following treatment.
@@ -93,13 +93,13 @@ export default function Swhite() {
           the tooth looking pale and translucent. This change can be permanent
           and would require replacement of the tooth to fix – a major procedure.
         </p>
-        <p>
+        <p className="sss">
           People are often eager to obtain the best possible results with their
           treatment. Sometimes the gel is left in for too long in the hope of
           achieving whiter teeth. This can cause the chemicals to penetrate too
           deeply and damage the inner layer of the tooth, the pulp.
         </p>
-        <p>
+        <p className="sss">
           To avoid complications from using take-home whitening products, ask
           your dentist for advice or invest in a professional whitening
           treatment.
