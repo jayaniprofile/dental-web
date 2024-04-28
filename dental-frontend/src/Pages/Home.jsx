@@ -110,14 +110,20 @@ export default function Home() {
             </Container>
           </Link>
 
-          <Container size="ttwo">
-            <h3>Cleaning & Polishing (Scaling)</h3>
-            <img className="clean" src={clean} alt="logo" />
-          </Container>
-          <Container size="tthree">
-            <h3>Tooth Coloured Fillings</h3>
-            <img className="fill" src={fill} alt="logo" />
-          </Container>
+          <Link to="/sclean">
+            <Container size="ttwo">
+              <h3>Cleaning & Polishing (Scaling)</h3>
+              <img className="clean" src={clean} alt="logo" />
+            </Container>
+          </Link>
+
+          <Link to="/sfilling">
+            <Container size="tthree">
+              <h3>Tooth Coloured Fillings</h3>
+              <img className="fill" src={fill} alt="logo" />
+            </Container>
+          </Link>
+
           <Container size="tfour">
             <h3>Dental Implants</h3>
             <img className="implant" src={implant} alt="implant" />

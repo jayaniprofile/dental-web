@@ -1,6 +1,6 @@
 .sclean1{
     width: 1465px;
-    height: 2000px;
+    height: 1400px;
     margin-left: 25px;
     margin-right: 25px;
     background: linear-gradient(rgba(247, 248, 249, 0.7),
@@ -35,5 +35,13 @@
   .ul-left li {
     margin-left: 20px;
     padding-left: 0;
+  }
+
+  .sss{
+    font-size: 20px;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: rgb(109, 109, 107);
   }
   

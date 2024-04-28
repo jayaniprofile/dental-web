@@ -104,7 +104,9 @@ export default function Swhite() {
           your dentist for advice or invest in a professional whitening
           treatment.
         </p>
-        <Button variant="contained">Book Now</Button>
+        <Button variant="contained" sx={{ fontSize: "50px" }}>
+          Book Now
+        </Button>
       </Container>
       <Container size="last">
         <p>Copyright © 2024 Smile Dental Clinic</p>
