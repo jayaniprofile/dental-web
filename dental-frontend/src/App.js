@@ -8,6 +8,7 @@ import Swhite from "./Pages/Swhite";
 import Sclean from "./Pages/Sclean";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sfilling from "./Pages/Sfilling";
+import Simplant from "./Pages/Simplant";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/swhite" element={<Swhite />} />
           <Route path="/sclean" element={<Sclean />} />
           <Route path="/sfilling" element={<Sfilling />} />
+          <Route path="/simplant" element={<Simplant />} />
         </Routes>
       </div>
     </Router>

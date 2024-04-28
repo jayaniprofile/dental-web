@@ -23,7 +23,7 @@ import openimg from "../assets/images/openimg.gif";
 
 export default function Home() {
   return (
-    <div>
+    <div className="App">
       <ResponsiveAppBar />
       <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "" }}>
         <Container size="one">
@@ -124,10 +124,13 @@ export default function Home() {
             </Container>
           </Link>
 
-          <Container size="tfour">
-            <h3>Dental Implants</h3>
-            <img className="implant" src={implant} alt="implant" />
-          </Container>
+          <Link to="/simplant">
+            <Container size="tfour">
+              <h3>Dental Implants</h3>
+              <img className="implant" src={implant} alt="implant" />
+            </Container>
+          </Link>
+
           <Container size="tfive">
             <h3>Crowns & Bridges</h3>
             <img className="bridge" src={bridge} alt="logo" />
