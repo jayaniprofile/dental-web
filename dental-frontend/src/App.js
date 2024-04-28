@@ -22,6 +22,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/swhite" element={<Swhite />} />
         </Routes>
       </div>
     </Router>

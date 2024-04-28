@@ -50,40 +50,44 @@ export default function Home() {
           <Container size="topic">
             <h1>Why Choose Smile Dental</h1>
           </Container>
-          <Container size="six">
-            <h2>5 Stars Reviews in Google</h2>
-            <p>
-              We are currently the highest-rated dental service in Sri Lanka.
-              Five out of five stars on Google reviews
-            </p>
-          </Container>
-          <Container size="seven">
-            <h2>On time, every time</h2>
-            <p>
-              We know how busy your schedule is, so your appointment will always
-              start on time with no waiting.
-            </p>
-          </Container>
-          <Container size="eight">
-            <h2>Easy to understand pricing</h2>
-            <p>
-              Every cost is listed publicly & isn’t hidden. No surprise fees.
-            </p>
-          </Container>
-          <Container size="nine">
-            <h2>Quality and Comfort</h2>
-            <p>
-              Experts clinicians, guided by science.Relaxing care in a calm
-              environment
-            </p>
-          </Container>
-          <Container size="ten">
-            <h2>Continuity of Care</h2>
-            <p>
-              We are responsible for everything. All the inquiries & complaint
-              will be handled directly by Dr. Lahiru Rajakaruna.
-            </p>
-          </Container>
+          <Link to="/about" className="link-without-underline">
+            <Container size="six">
+              <h2>5 Stars Reviews in Google</h2>
+              <p>
+                We are currently the highest-rated dental service in Sri Lanka.
+                Five out of five stars on Google reviews
+              </p>
+            </Container>
+          </Link>
+
+          <Link to="/about" className="link-without-underline">
+            <Container size="eight">
+              <h2>Easy to understand pricing</h2>
+              <p>
+                Every cost is listed publicly & isn’t hidden. No surprise fees.
+              </p>
+            </Container>
+          </Link>
+
+          <Link to="/about" className="link-without-underline">
+            <Container size="nine">
+              <h2>Quality and Comfort</h2>
+              <p>
+                Experts clinicians, guided by science.Relaxing care in a calm
+                environment
+              </p>
+            </Container>
+          </Link>
+
+          <Link to="/about" className="link-without-underline">
+            <Container size="ten">
+              <h2>Continuity of Care</h2>
+              <p>
+                We are responsible for everything. All the inquiries & complaint
+                will be handled directly by Dr. Lahiru Rajakaruna.
+              </p>
+            </Container>
+          </Link>
         </Container>
 
         <Container size="grp2">
@@ -99,10 +103,13 @@ export default function Home() {
               with one of our doctors.
             </p>
           </Container>
-          <Container size="tone">
-            <h3>Teeth Whitening</h3>
-            <img className="white" src={white} alt="logo" />
-          </Container>
+          <Link to="/swhite">
+            <Container size="tone">
+              <h3>Teeth Whitening</h3>
+              <img className="white" src={white} alt="logo" />
+            </Container>
+          </Link>
+
           <Container size="ttwo">
             <h3>Cleaning & Polishing (Scaling)</h3>
             <img className="clean" src={clean} alt="logo" />

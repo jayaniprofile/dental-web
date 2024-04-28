@@ -175,9 +175,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(47, 97, 205, 0.7),
-            rgba(118, 38, 216, 0.3)),
-        url("https://i.gifer.com/embedded/download/SG2C.gif");
+    background: linear-gradient(rgba(116, 156, 241, 0.7),
+            rgba(210, 208, 212, 0.3)),
+        url("https://images.pexels.com/photos/304664/pexels-photo-304664.jpeg?auto=compress&cs=tinysrgb&w=600");
     background-size: cover;
     background-position: center;
 }
@@ -469,3 +469,14 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+
+/* Add this to your CSS file */
+a {
+    text-decoration: none; /* Remove underline from all links */
+  }
+  
+  /* Add a specific class to style only the Links */
+  .link-without-underline {
+    text-decoration: none; /* Remove underline */
+  }
+  
