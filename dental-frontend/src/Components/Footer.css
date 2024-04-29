@@ -1,0 +1,23 @@
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  
+  .footer-column p {
+    margin: 5px 0;
+  }
+  
+  .footer{
+    width: 1500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(14, 9, 76);
+    color:white
+  }

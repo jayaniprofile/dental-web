@@ -7,10 +7,10 @@ import "../Style/Scrwon.css";
 
 export default function Scrown() {
   return (
-    <div>
+    <div className="App">
       <ResponsiveAppBar />
       <Container size="scrown1">
-        <h2>Dental Crowns</h2>
+        <h1>Dental Crowns</h1>
         <h3>What are dental crowns?</h3>
         <p className="sss">
           Your teeth can become damaged over time. This can happen for a variety
