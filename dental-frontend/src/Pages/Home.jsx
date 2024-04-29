@@ -20,6 +20,7 @@ import dentures from "../assets/images/denture2.webp";
 import other from "../assets/images/other.webp";
 import ResponsiveAppBar from "../Components/NavBar";
 import openimg from "../assets/images/openimg.gif";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -131,10 +132,13 @@ export default function Home() {
             </Container>
           </Link>
 
-          <Container size="tfive">
-            <h3>Crowns & Bridges</h3>
-            <img className="bridge" src={bridge} alt="logo" />
-          </Container>
+          <Link to="/scrown">
+            <Container size="tfive">
+              <h3>Crowns & Bridges</h3>
+              <img className="bridge" src={bridge} alt="logo" />
+            </Container>
+          </Link>
+
           <Container size="tsix">
             <h3>Nerve Fillings</h3>
             <img className="rct" src={rct} alt="logo" />
@@ -189,6 +193,8 @@ export default function Home() {
         <Container size="ei">
           <img className="img4" src={img3} alt="logo" />
         </Container> */}
+
+        <Footer />
       </div>
     </div>
   );
