@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sfilling from "./Pages/Sfilling";
 import Simplant from "./Pages/Simplant";
 import Scrown from "./Pages/Scrown";
+import Sdesign from "./Pages/Sdesign";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/sfilling" element={<Sfilling />} />
           <Route path="/simplant" element={<Simplant />} />
           <Route path="/scrown" element={<Scrown />} />
+          <Route path="/sdesign" element={<Sdesign />} />
         </Routes>
       </div>
     </Router>

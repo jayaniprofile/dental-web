@@ -143,10 +143,14 @@ export default function Home() {
             <h3>Nerve Fillings</h3>
             <img className="rct" src={rct} alt="logo" />
           </Container>
-          <Container size="tseven">
-            <h3>Smile Design</h3>
-            <img className="design" src={design} alt="design" />
-          </Container>
+
+          <Link to="/sdesign">
+            <Container size="tseven">
+              <h3>Smile Design</h3>
+              <img className="design" src={design} alt="design" />
+            </Container>
+          </Link>
+
           <Container size="teight">
             <h3>Dentures</h3>
             <img className="dentures" src={dentures} alt="logo" />
