@@ -1,9 +1,11 @@
 import React from "react";
 import ResponsiveAppBar from "../Components/NavBar";
 import Container from "../Components/Container";
-import bridge from "../assets/images/bridge.webp";
+import bridge1 from "../assets/images/bridge1.jpg";
+import crown1 from "../assets/images/crown.webp";
 import { Button } from "@mui/material";
 import "../Style/Scrwon.css";
+import Footer from "../Components/Footer";
 
 export default function Scrown() {
   return (
@@ -11,6 +13,7 @@ export default function Scrown() {
       <ResponsiveAppBar />
       <Container size="scrown1">
         <h1>Dental Crowns</h1>
+
         <h3>What are dental crowns?</h3>
         <p className="sss">
           Your teeth can become damaged over time. This can happen for a variety
@@ -20,42 +23,60 @@ export default function Scrown() {
           a snug hat for your tooth. The crown restores the tooth’s shape, size,
           strength and appearance.{" "}
         </p>
+        <img className="bridge" src={crown1} alt="logo" />
         <h3>Why would I need a dental crown?</h3>
         <p className="sss">
           You may need a dental crown for several reasons, including:{" "}
         </p>
 
-        <p>
-          . . . . . Protecting a weak tooth (possibly from decay) from breaking
-          or to keep the weak tooth together Restoring a broken tooth or a
-          severely worn down tooth. Covering and supporting a tooth with a large
-          filling and not much tooth remaining. Holding a dental bridge in
-          place. Covering misshapen or severely discolored teeth. Covering a
-          dental implant. Covering a tooth that’s been treated with a root canal
-        </p>
+        <ul className="ul-left">
+          <li>
+            Protecting a weak tooth (possibly from decay) from breaking or to
+            keep the weak tooth together
+          </li>
+          <li>Restoring a broken tooth or a severely worn down tooth</li>
+          <li>
+            Covering and supporting a tooth with a large filling and not much
+            tooth remaining
+          </li>
+          <li>Holding a dental bridge in place</li>
+          <li>Covering misshapen or severely discolored teeth</li>
+          <li>Covering a dental implant</li>
+          <li>Covering a tooth that’s been treated with a root canal</li>
+        </ul>
+
         <h2>What are dental crowns made of?</h2>
         <p className="sss">
           Permanent crowns can be made out of many different materials. These
           materials can include:
         </p>
-        <p>
-          ......................Metal: Several metals, including gold,
-          palladium, nickel, and chromium, can be used in dental crowns. Metal
-          crowns do not often chip or break, last the longest in terms of wear
-          down, and require only a small amount of your tooth to be removed.
-          They can also withstand biting and chewing forces. The metallic color
-          is the main drawback of this type of crown. Metal crowns are a good
-          choice for out-of-sight molars. Porcelain-fused-to-metal: This type of
-          dental crown can be matched to the color of the teeth that’s next to
-          the crown. They have a more natural tooth color. However, sometimes
-          the metal under the crown’s porcelain cap shows through as a dark
-          line. Other cons include the chance of the crown’s porcelain portion
-          chipping or breaking off and the crown wearing down the teeth opposite
-          it within the mouth. Porcelain-fused-to-metal dental crowns can be a
-          good choice for front or back teeth. Zirconia: Dental crowns made out
-          of zirconia are generally bit expensive than other crown types.
-          However, they looks very much similar to the natural teeth
-        </p>
+        <ul className="ul-left">
+          <li>
+            Metal: Several metals, including gold, palladium, nickel, and
+            chromium, can be used in dental crowns. Metal crowns do not often
+            chip or break, last the longest in terms of wear down, and require
+            only a small amount of your tooth to be removed. They can also
+            withstand biting and chewing forces. The metallic color is the main
+            drawback of this type of crown. Metal crowns are a good choice for
+            out-of-sight molars.
+          </li>
+          <li>
+            Porcelain-fused-to-metal: This type of dental crown can be matched
+            to the color of the teeth that’s next to the crown. They have a more
+            natural tooth color. However, sometimes the metal under the crown’s
+            porcelain cap shows through as a dark line. Other cons include the
+            chance of the crown’s porcelain portion chipping or breaking off and
+            the crown wearing down the teeth opposite it within the mouth.
+            Porcelain-fused-to-metal dental crowns can be a good choice for
+            front or back teeth.
+          </li>
+          <li>
+            Zirconia: Dental crowns made out of zirconia are generally a bit
+            more expensive than other crown types. However, they look very much
+            similar to natural teeth.
+          </li>
+        </ul>
+
         <h2>Tooth preparation for a dental crown?</h2>
         <p className="sss">
           You will typically have two visits to the dentist to prepare for a
@@ -68,10 +89,12 @@ export default function Scrown() {
           and the bone around it. Your dentist might have to do a root canal
           treatment before your dental crown procedure if there’s any:
         </p>
-        <p>
-          ......................Tooth decay. Risk of infection. Injury to the
-          tooth’s pulp.
-        </p>
+        <ul className="ul-left">
+          <li>Tooth decay</li>
+          <li>Risk of infection</li>
+          <li>Injury to the tooth’s pulp</li>
+        </ul>
+
         <p className="sss">
           This will make space for the crown itself. The amount of tooth that
           gets filed away depends on the type of crown you have. All-metal
@@ -107,10 +130,12 @@ export default function Scrown() {
           the length of time a crown lasts.These mouth-related habits can
           include things like:{" "}
         </p>
-        <p>
-          ................... Grinding or clenching your teeth. Chewing ice.
-          Biting your fingernails. Using your teeth to open packaging.
-        </p>
+        <ul className="ul-left">
+          <li>Grinding or clenching your teeth</li>
+          <li>Chewing ice</li>
+          <li>Biting your fingernails</li>
+          <li>Using your teeth to open packaging</li>
+        </ul>
       </Container>
 
       <Container size="scrown2">
@@ -121,7 +146,7 @@ export default function Scrown() {
           where the missing tooth is. Talk to a dental professional to find out
           if it’s right for you.
         </p>
-        <img className="bridge" src={bridge} alt="logo" />
+        <img className="bridge" src={bridge1} alt="logo" />
         <h2>What are dental bridges?</h2>
         <p className="sss">
           If you have one or more missing teeth, a dental bridge can fill the
@@ -143,37 +168,54 @@ export default function Scrown() {
           into the empty space. The teeth in your opposite jaw can also move up
           or down toward the space. This can cause:
         </p>
-        <p>
-          ...................Bite problems. Chewing difficulties. Pain from the
-          extra stress on your teeth and jaw. Self-consciousness about the way
-          you look or your smile.
-        </p>
+        <ul className="ul-left">
+          <li>Bite problems</li>
+          <li>Chewing difficulties</li>
+          <li>Pain from the extra stress on your teeth and jaw</li>
+          <li>Self-consciousness about the way you look or your smile</li>
+        </ul>
+
         <h2>What does a dental bridge look like?</h2>
         <p className="sss">A typical dental bridge has:</p>
-        <p>
-          ......................Abutment teeth: A dental professional places two
-          crowns on the teeth on either side of the gap. These anchoring teeth,
-          or supporting teeth, can be your natural teeth or dental implants.
-          Pontics: This false tooth (or teeth) fills in the gap and attaches to
-          the crowns.
-        </p>
+        <ul className="ul-left">
+          <li>
+            Abutment teeth: A dental professional places two crowns on the teeth
+            on either side of the gap. These anchoring teeth, or supporting
+            teeth, can be your natural teeth or dental implants.
+          </li>
+          <li>
+            Pontics: This false tooth (or teeth) fills in the gap and attaches
+            to the crowns.
+          </li>
+        </ul>
+
         <h2>What types of dental bridges are available?</h2>
         <p className="sss">The four main types of bridges are:</p>
-        <p>
-          .......................Traditional fixed bridge: This bridge is the
-          most common. It has two or more crowns and a filler tooth or teeth
-          that are all connected. The crowns keep the bridge in place.
-          Traditional bridges are made of metal, porcelain fused to metal, or
-          ceramics. Cantilever bridge: In this bridge type, the pontic connects
-          to only one abutment tooth. This can sometimes be an option for people
-          who have teeth on only one side of the gap. Maryland dental bridge
-          (resin-bonded bridge): You may have this type of bridge if you have
-          missing front teeth. It’s made of porcelain fused to metal or ceramic
-          teeth, supported by a framework. Wings on each side of the bridge bond
-          to your existing teeth. Implant supported bridge: This bridge is
-          similar to a “traditional fixed bridge” but instead of being cemented
-          in place to teeth, it is held in place by implants.
-        </p>
+        <ul className="ul-left">
+          <li>
+            Traditional fixed bridge: This bridge is the most common. It has two
+            or more crowns and a filler tooth or teeth that are all connected.
+            The crowns keep the bridge in place. Traditional bridges are made of
+            metal, porcelain fused to metal, or ceramics.
+          </li>
+          <li>
+            Cantilever bridge: In this bridge type, the pontic connects to only
+            one abutment tooth. This can sometimes be an option for people who
+            have teeth on only one side of the gap.
+          </li>
+          <li>
+            Maryland dental bridge (resin-bonded bridge): You may have this type
+            of bridge if you have missing front teeth. It’s made of porcelain
+            fused to metal or ceramic teeth, supported by a framework. Wings on
+            each side of the bridge bond to your existing teeth.
+          </li>
+          <li>
+            Implant-supported bridge: This bridge is similar to a “traditional
+            fixed bridge” but instead of being cemented in place to teeth, it is
+            held in place by implants.
+          </li>
+        </ul>
+
         <h2>What can I use instead of a dental bridge?</h2>
         <p className="sss">
           Some people choose partial dentures, which are removable false teeth.
@@ -185,26 +227,36 @@ export default function Scrown() {
           What happens during a procedure for a traditional dental bridge?
         </h2>
         <p>You’ll typically need at least two appointments:</p>
-        <p>
-          ..................Abutment teeth preparation: During your first visit,
-          your healthcare provider reshapes the abutment teeth. They’ll remove
-          part of the enamel and dentin, so there’s room for the crown.
-          Impressions: Your provider takes impressions or a digital scan of your
-          teeth. A dental laboratory uses the mold or scan as a model to create
-          your bridge, false teeth and crowns. You’ll have a temporary bridge to
-          protect the exposed areas in your mouth while the lab makes your
-          bridge. Permanent bridge placement: During your second visit, your
-          provider removes the temporary bridge and places the permanent bridge.
-          Your provider will carefully check the bridge and make any needed
-          adjustments to make sure it fits you comfortably.
-        </p>
+        <ul className="ul-left">
+          <li>
+            Abutment teeth preparation: During your first visit, your healthcare
+            provider reshapes the abutment teeth. They’ll remove part of the
+            enamel and dentin, so there’s room for the crown.
+          </li>
+          <li>
+            Impressions: Your provider takes impressions or a digital scan of
+            your teeth. A dental laboratory uses the mold or scan as a model to
+            create your bridge, false teeth, and crowns. You’ll have a temporary
+            bridge to protect the exposed areas in your mouth while the lab
+            makes your bridge.
+          </li>
+          <li>
+            Permanent bridge placement: During your second visit, your provider
+            removes the temporary bridge and places the permanent bridge. Your
+            provider will carefully check the bridge and make any needed
+            adjustments to make sure it fits you comfortably.
+          </li>
+        </ul>
+
         <h2>What are the advantages of this procedure?</h2>
         <p className="sss">A dental bridge can:</p>
-        <p>
-          ................Help your bite. Prevent remaining teeth from moving
-          out of place. Restore your ability to chew and speak. Restore your
-          smile.
-        </p>
+        <ul className="ul-left">
+          <li>Help your bite.</li>
+          <li>Prevent remaining teeth from moving out of place.</li>
+          <li>Restore your ability to chew and speak.</li>
+          <li>Restore your smile.</li>
+        </ul>
+
         <h2>Do dental bridges have any risks or complications?</h2>
         <p className="sss">
           If you care for your bridge properly, it can last many years without
@@ -231,20 +283,29 @@ export default function Scrown() {
           prevent tooth decay and gum disease that can lead to tooth loss. For
           proper tooth and gum care, you should:
         </p>
-        <p>
-          ..................Brush twice a day and floss daily: A dental
-          professional can show you the right way to brush and floss. You will
-          probably use a special type of floss called a threader that lets you
-          slide the floss between the bridge and your gum. Get regular
-          professional cleanings: Seeing a dental provider regularly can help
-          detect problems early, when treatment is more successful. Eat a
-          balanced diet: Include plenty of fruits, vegetables and fiber and try
-          to limit chewy, fibrous foods like some meats.
-        </p>
+        <ul className="ul-left">
+          <li>
+            Brush twice a day and floss daily: A dental professional can show
+            you the right way to brush and floss. You will probably use a
+            special type of floss called a threader that lets you slide the
+            floss between the bridge and your gum.
+          </li>
+          <li>
+            Get regular professional cleanings: Seeing a dental provider
+            regularly can help detect problems early, when treatment is more
+            successful.
+          </li>
+          <li>
+            Eat a balanced diet: Include plenty of fruits, vegetables, and fiber
+            and try to limit chewy, fibrous foods like some meats.
+          </li>
+        </ul>
+
         <Button variant="contained" sx={{ fontSize: "50px" }}>
           Book Now
         </Button>
       </Container>
+      <Footer />
     </div>
   );
 }

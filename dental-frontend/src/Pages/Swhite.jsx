@@ -4,6 +4,7 @@ import "../Style/Swhite.css";
 import Container from "../Components/Container";
 import swhite from "../assets/images/whitening.webp";
 import { Button } from "@mui/material";
+import Footer from "../Components/Footer";
 
 export default function Swhite() {
   return (
@@ -108,9 +109,7 @@ export default function Swhite() {
           Book Now
         </Button>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }

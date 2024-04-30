@@ -13,6 +13,7 @@ import sdesign from "../assets/images/design.webp";
 import sdentures from "../assets/images/denture2.webp";
 import sother from "../assets/images/other.webp";
 import { Button } from "@mui/material";
+import Footer from "../Components/Footer";
 
 export default function Services() {
   return (
@@ -139,9 +140,7 @@ export default function Services() {
           <img className="other" src={sother} alt="logo" />
         </Container>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }

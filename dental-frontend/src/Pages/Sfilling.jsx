@@ -4,6 +4,7 @@ import Container from "../Components/Container";
 import sfill from "../assets/images/fillings.webp";
 import { Button } from "@mui/material";
 import "../Style/Sfilling.css";
+import Footer from "../Components/Footer";
 
 export default function Sfilling() {
   return (
@@ -61,9 +62,7 @@ export default function Sfilling() {
           Book Now
         </Button>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }

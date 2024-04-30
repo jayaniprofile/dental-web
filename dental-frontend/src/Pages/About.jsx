@@ -6,6 +6,7 @@ import pic1 from "../assets/images/women.png";
 import dr from "../assets/images/dr.jpg";
 import { Button } from "@mui/material";
 import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import Footer from "../Components/Footer";
 
 export default function About() {
   return (
@@ -50,9 +51,7 @@ export default function About() {
           Book Now
         </Button>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }

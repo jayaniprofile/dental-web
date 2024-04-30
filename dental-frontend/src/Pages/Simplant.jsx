@@ -4,6 +4,7 @@ import Container from "../Components/Container";
 import "../Style/Simplant.css";
 import implant from "../assets/images/implants.webp";
 import { Button } from "@mui/material";
+import Footer from "../Components/Footer";
 
 export default function Simplant() {
   return (
@@ -155,9 +156,7 @@ export default function Simplant() {
           Book Now
         </Button>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }

@@ -4,6 +4,7 @@ import Container from "../Components/Container";
 import ResponsiveAppBar from "../Components/NavBar";
 import sclean from "../assets/images/cleaning.webp";
 import { Button } from "@mui/material";
+import Footer from "../Components/Footer";
 
 export default function Sclean() {
   return (
@@ -63,9 +64,7 @@ export default function Sclean() {
           Book Now
         </Button>
       </Container>
-      <Container size="last">
-        <p>Copyright © 2024 Smile Dental Clinic</p>
-      </Container>
+      <Footer />
     </div>
   );
 }
