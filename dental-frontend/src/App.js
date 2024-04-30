@@ -12,6 +12,7 @@ import Simplant from "./Pages/Simplant";
 import Scrown from "./Pages/Scrown";
 import Sdesign from "./Pages/Sdesign";
 import Sdentures from "./Pages/Sdentures";
+import Snerve from "./Pages/Snerve";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
           <Route path="/scrown" element={<Scrown />} />
           <Route path="/sdesign" element={<Sdesign />} />
           <Route path="/sdentures" element={<Sdentures />} />
+          <Route path="/snerve" element={<Snerve />} />
         </Routes>
       </div>
     </Router>

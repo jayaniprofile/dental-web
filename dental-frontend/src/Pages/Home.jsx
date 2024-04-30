@@ -139,10 +139,12 @@ export default function Home() {
             </Container>
           </Link>
 
-          <Container size="tsix">
-            <h3>Nerve Fillings</h3>
-            <img className="rct" src={rct} alt="logo" />
-          </Container>
+          <Link to="/snerve">
+            <Container size="tsix">
+              <h3>Nerve Fillings</h3>
+              <img className="rct" src={rct} alt="logo" />
+            </Container>
+          </Link>
 
           <Link to="/sdesign">
             <Container size="tseven">
