@@ -151,10 +151,13 @@ export default function Home() {
             </Container>
           </Link>
 
-          <Container size="teight">
-            <h3>Dentures</h3>
-            <img className="dentures" src={dentures} alt="logo" />
-          </Container>
+          <Link to="/sdentures">
+            <Container size="teight">
+              <h3>Dentures</h3>
+              <img className="dentures" src={dentures} alt="logo" />
+            </Container>
+          </Link>
+
           <Container size="tnine">
             <h3>Other Treatments</h3>
             <img className="other" src={other} alt="logo" />
