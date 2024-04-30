@@ -12,12 +12,29 @@
   .footer-column p {
     margin: 5px 0;
   }
+
+  .footer-column1 p {
+    margin: 10px 0;
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .footer-column3 p {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 10px;
+  }
+
   
-  .footer{
+  
+  .footer1{
     width: 1500px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 20px;
     background-color: rgb(14, 9, 76);
-    color:white
+    color:white;
+    margin-top: 30px;
+    padding-bottom: 10px;
   }

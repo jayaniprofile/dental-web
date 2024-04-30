@@ -180,20 +180,6 @@ export default function Home() {
           </div>
         </Container>
 
-        <Container size="last">
-          <p>Copyright © 2024 Smile Dental Clinic</p>
-        </Container>
-
-        {/* <Container size="s">
-          <img className="img2" src={img1} alt="logo" />
-        </Container>
-        <Container size="se">
-          <img className="img3" src={img2} alt="logo" />
-        </Container>
-        <Container size="ei">
-          <img className="img4" src={img3} alt="logo" />
-        </Container> */}
-
         <Footer />
       </div>
     </div>
