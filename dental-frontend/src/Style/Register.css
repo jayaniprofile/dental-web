@@ -1,0 +1,14 @@
+.reg1{
+    width: 45%;
+    height: 1000px;
+}
+
+.reg2{
+    width: 45%;
+    height: 1000px;
+}
+
+.reg{
+    display: flex;
+    flex:1;
+}

@@ -13,6 +13,7 @@ import Scrown from "./Pages/Scrown";
 import Sdesign from "./Pages/Sdesign";
 import Sdentures from "./Pages/Sdentures";
 import Snerve from "./Pages/Snerve";
+import Register from "./Pages/Register";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
           <Route path="/sdesign" element={<Sdesign />} />
           <Route path="/sdentures" element={<Sdentures />} />
           <Route path="/snerve" element={<Snerve />} />
+          <Route path="/reg" element={<Register />} />
         </Routes>
       </div>
     </Router>

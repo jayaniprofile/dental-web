@@ -1,5 +1,5 @@
 import React from "react";
-import "../Style/Footer1.css";
+import "../Style/Footer.css";
 import Container from "./Container";
 import fb from "../assets/images/fb.png";
 import inster from "../assets/images/inster.png";
@@ -7,6 +7,9 @@ import linkedin from "../assets/images/Linkedin.png";
 import youtube from "../assets/images/Youtube.png";
 import logo from "../assets/images/logoo.png";
 import { Link } from "react-router-dom";
+import email1 from "../assets/images/emaill.png";
+import address from "../assets/images/addre.png";
+import tele from "../assets/images/tele.png";
 
 const Footer = () => {
   return (
@@ -17,7 +20,7 @@ const Footer = () => {
             <img className="openimg" src={logo} alt="logo" />
           </div>
           <div className="footer-column3">
-            <h3>NAVIGATE</h3>
+            <h3>QUICK LINKS</h3>
             <Link to="/" className="link-without-underline1">
               <p>Home</p>{" "}
             </Link>
@@ -32,13 +35,21 @@ const Footer = () => {
             </Link>
           </div>
           <div className="footer-column1">
-            <h3>CONNECT</h3>
-            <p>Email: smiledental@gmail.com</p>
-            <p>Phone: 071-012-1234</p>
-            <p>Address: Church Rd,Ratnapura</p>
+            <h3>CONTACT US</h3>
+            <p>
+              <img className="openimg" src={email1} alt="logo" />{" "}
+              smiledental@gmail.com
+            </p>
+            <p>
+              <img className="openimg" src={tele} alt="logo" /> 071-012-1234
+            </p>
+            <p>
+              <img className="openimg" src={address} alt="logo" /> Church
+              Rd,Ratnapura
+            </p>
           </div>
           <div className="footer-column">
-            <h3>SOCIALIZE</h3>
+            <h3>STAY CONNECTED</h3>
             <p>
               <img className="openimg" src={fb} alt="logo" />
             </p>

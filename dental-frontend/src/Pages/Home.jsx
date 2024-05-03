@@ -85,7 +85,7 @@ export default function Home() {
               <h2>Continuity of Care</h2>
               <p>
                 We are responsible for everything. All the inquiries & complaint
-                will be handled directly by Dr. Lahiru Rajakaruna.
+                will be handled directly by Dr. Saman Pathirana.
               </p>
             </Container>
           </Link>
@@ -181,9 +181,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="button-container">
-                <Button variant="contained" color="success" size="large">
-                  Book Online
-                </Button>
+                <Link to="/reg">
+                  <Button variant="contained" color="success" size="large">
+                    Book Online
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
