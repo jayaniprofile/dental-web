@@ -1,0 +1,36 @@
+.reg1{
+    width: 700px;
+    height: 600px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgb(7, 7, 7);
+}
+
+.reg2{
+    width: 700px;
+    height: 600px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.inline-container {
+    display: flex;
+    width: 1600px;
+    height: 700px;
+  }
+
+  .App {
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://i.pinimg.com/originals/d2/5f/60/d25f60f14ece7d93589eb9a76c28d058.gif");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .reg1-container {
+    background: linear-gradient(rgba(47, 97, 205, 0.7),
+            rgba(118, 38, 216, 0.3)),
+        url("https://i.pinimg.com/originals/d2/5f/60/d25f60f14ece7d93589eb9a76c28d058.gif");
+    background-size: cover;
+    background-position: center;
+  }

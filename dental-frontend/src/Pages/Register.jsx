@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../Components/Container";
-import "../Style/Register.css";
+import "../Style/Regist.css";
 import ResponsiveAppBar from "../Components/NavBar";
 
 export default function Register() {
@@ -8,8 +8,15 @@ export default function Register() {
     <div>
       <ResponsiveAppBar />
       <Container size="reg">
-        <Container size="reg1"></Container>
-        <Container size="reg2"></Container>
+        <div className="inline-container">
+          <Container size="reg1">
+            <p>4to</p>
+          </Container>
+
+          <Container size="reg2">
+            <p>content</p>
+          </Container>
+        </div>
       </Container>
     </div>
   );
