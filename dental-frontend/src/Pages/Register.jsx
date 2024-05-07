@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../Components/Container";
 import "../Style/Regist.css";
 import ResponsiveAppBar from "../Components/NavBar";
+import RegistrationForm from "./RegistrationForm";
 
 export default function Register() {
   return (
@@ -14,7 +15,7 @@ export default function Register() {
           </Container>
 
           <Container size="reg2">
-            <p>content</p>
+            <RegistrationForm />
           </Container>
         </div>
       </Container>
